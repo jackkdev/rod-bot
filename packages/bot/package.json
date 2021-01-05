@@ -1,0 +1,19 @@
+{
+  "name": "@rod/bot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "./dist/main.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node .",
+    "start:dev": "ts-node ./src/main.ts",
+    "start:watch": "nodemon --ext ts --exec ts-node ./src/main.ts"
+  },
+  "dependencies": {
+    "@rod/core": "^0.1.0",
+    "@types/yargs-parser": "^20.2.0",
+    "discord.js": "^12.5.1",
+    "dotenv": "^8.2.0",
+    "yargs-parser": "^20.2.4"
+  }
+}

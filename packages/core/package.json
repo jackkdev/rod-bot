@@ -1,0 +1,15 @@
+{
+  "name": "@rod/core",
+  "version": "0.1.0",
+  "description": "",
+  "types": "./dist",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "discord.js": "^12.5.1",
+    "reflect-metadata": "^0.1.13",
+    "yargs-parser": "^20.2.4"
+  }
+}
